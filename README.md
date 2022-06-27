@@ -7,8 +7,8 @@
 2. `cd Ctype`
 3. bash setup.sh (underdeveloped)
 4. `ctype` **( move to usr/bin and type Ctype [chmod 777])**
-5.**or**
-6. `bash test.sh`
+  **or**
+5. `bash test.sh`
 
 
 ## USEAGE:
