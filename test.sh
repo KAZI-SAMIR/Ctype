@@ -3,20 +3,21 @@ echo "=================================|"
 echo "             Ctype"
 echo "=================================|"
 
-echo "Do you want to usr timer [y/n] :"
-read ans
+echo "Welcome to Ctype (enter your name) :"
+read name
 
-if [[ $ans == "y" ]]; then
-     echo "Enter how many sec you like to write word : "
-     read sec
-elif [[ $ans == "n" ]]; then
-     sec = 1.3
-     echo "your time is 1.3 sec"
-     sleep 1
+#if [[ $ans == "y" ]]; then
+echo $name "how many sec you like to write word : "
+read sec
+
+#elif [[ $ans == "n" ]]; then
+ #    sec = 1.3
+  #   echo "your time is 1.3 sec"
+#     sleep 1
 #else echo "some error!"
 #     break
 
-fi
+#fi
 
 sleep 1
 clear
@@ -33,10 +34,10 @@ _________________ |
 """
 
 echo "Let's play !"
-sleep 2
+sleep 2.5
 clear
-echo " (type a word in " $sec "sec and hit enter):"
-echo "=======================================|"
+echo " (type your words in " $sec "sec and hit enter [ctr+c = quit]):"
+echo "=========================================================|"
 while true; do
         for c in "${arr[@]}"; do
                 echo -en "\r $c "

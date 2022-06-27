@@ -1,17 +1,18 @@
 This programme is a cli typing game which can help you to speed up your typing speed in terminal.
 
 #installation
+
 git clone
 cd Ctype
 bash setup.sh
 ctype
 
-USEAGE:
+###USEAGE:
      Just type: Ctype  (in your terminal) 
-[adv use] type:       ( )
+     [adv use] type:       (Ctype)
 
 
-symbol meaning
+##symbol meaning
 _________________
 :0 (start typing)|
 :| (stop typing) |
