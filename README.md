@@ -3,7 +3,7 @@
 # installation
 
 
-1. git clone
+1. git clone https://github.com/KAZI-SAMIR/Ctype
 2. cd Ctype
 3. bash setup.sh
 4. ctype ( move to usr/bin and type Ctype [chmod 777])
