@@ -1,0 +1,9 @@
+arr=(':0' ':|')
+echo "clean sir ! (type a word in 1 sec)"
+while true; do
+        for c in "${arr[@]}"; do
+                echo -en "\r $c "
+                sleep 1
+
+        done
+done
