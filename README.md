@@ -2,15 +2,16 @@
 
 # installation
 
-`
-git clone
-cd Ctype
-bash setup.sh
-ctype
-`
+
+1. git clone
+2. cd Ctype
+3. bash setup.sh
+4. ctype ( move to usr/bin and type Ctype [chmod 777])
+
+
 
 ## USEAGE:
-     Just type: Ctype  (in your terminal) 
+     Just type: ./test.sh  (in your terminal) 
      [adv use] type:       (Ctype)
 
 | Syntax | Description |
