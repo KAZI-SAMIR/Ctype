@@ -1,4 +1,4 @@
-**This programme is a cli typing game which can help you to speed up your typing speed in terminal.**
+**This bash programme is a cli typing game which can help you to speed up your typing speed in terminal.**
 
 # installation
 
